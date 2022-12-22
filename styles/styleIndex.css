@@ -1,27 +1,29 @@
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    background-color: beige;
 }
 
 ul {
     list-style-type: square;
     display: list-item;
     margin: auto;
-    text-align: left;
-    align-items: left;
-    justify-content: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 img {
     width: 500px;
+    margin-bottom: 20px;
 }
 
 ol {
     display: list-item;
     margin: auto;
-    text-align: left;
-    align-items: left;
-    justify-content: left;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 p {
@@ -30,10 +32,7 @@ p {
 }
 
 li {
+    list-style-position: inside;
     width: 750px;
     margin: 0 auto;
-}
-
-.bg {
-    background:beige
 }
