@@ -4,7 +4,9 @@ body {
 }
 
 li {
-    display: flex;
+    list-style-type: square;
+    list-style-position: inside;
+    display: list-item;
     margin: auto;
     text-align: center;
     align-items: center;

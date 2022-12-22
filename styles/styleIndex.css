@@ -5,7 +5,8 @@ body {
 
 li {
     list-style-type: square;
-    display: flex;
+    list-style-position: inside;
+    display: list-item;
     margin: auto;
     text-align: center;
     align-items: center;
