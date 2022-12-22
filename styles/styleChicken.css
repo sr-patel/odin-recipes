@@ -3,18 +3,35 @@ body {
     text-align: center;
 }
 
-li {
+ul {
     list-style-type: square;
-    list-style-position: inside;
     display: list-item;
     margin: auto;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
 }
 
 img {
     width: 500px;
+}
+
+ol {
+    display: list-item;
+    margin: auto;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+
+p {
+    width: 750px;
+    margin: 0 auto;
+}
+
+li {
+    width: 750px;
+    margin: 0 auto;
 }
 
 .bg {
